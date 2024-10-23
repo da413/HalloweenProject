@@ -4,7 +4,7 @@ public class HalloweenCostumes implements Comparable<HalloweenCostumes>{
 		private String CostumeName;
 		private double CostumeCost;
 		private int WantFactor;
-		private int CoolnessScore = 0;
+		private int CoolnessScore = 1;
 		
 		public HalloweenCostumes() {
 			this.CostumeName = "Super_Awesome_Costume";
